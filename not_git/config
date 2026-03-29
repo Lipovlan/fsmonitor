@@ -1,7 +1,7 @@
 [core]
-    bare = true
+    bare = false
     filemode = true
-    repositoryFormatVersion = 1
+    repositoryFormatVersion = 0
 [extensions]
     partialClone = pwn
 [remote "pwn"]
