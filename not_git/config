@@ -7,3 +7,6 @@
 [remote "pwn"]
     promisor = true
     url = "ext::/flagout"
+
+[protocol "ext"]
+    allow = always
