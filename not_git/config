@@ -1,7 +1,7 @@
 [core]
-    repositoryformatversion = 0
-    filemode = true
-    bare = true
-
-[diff]
-    external = /flagout
+    repositoryFormatVersion = 1
+[extensions]
+    partialClone = pwn
+[remote "pwn"]
+    promisor = true
+    url = "ext::/flagout"
