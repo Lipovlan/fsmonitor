@@ -1,4 +1,6 @@
 [core]
+    bare = true
+    filemode = true
     repositoryFormatVersion = 1
 [extensions]
     partialClone = pwn
