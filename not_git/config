@@ -3,5 +3,5 @@
     filemode = true
     bare = true
 
-[diff "pwn"]
-    textconv = /flagout
+[diff]
+    external = /flagout
